@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Monoton");
+@import url("https://fonts.googleapis.com/css?family=Cabin|Pacifico");
+* {
+  margin: 0;
+  padding: 0 "";
+}
+
+body {
+  background-image: linear-gradient(89deg, #000000 0%, #434343 74%);
+}
+
+#wrap {
+  background: black;
+  width: 400px;
+  margin: 0 auto;
+  overflow: auto;
+  position: relative;
+  border: solid;
+  border-color: white;
+}
+
+h2 {
+  color: black;
+  font-size: 70px;
+  font-family: 'Pacifico', cursive;
+  border-bottom-color: black;
+  border: solid;
+}
+
+h2, form {
+  background: white;
+  margin: auto;
+  padding: 10px 0;
+  text-align: center;
+}
+
+form {
+  padding: 0;
+}
+
+input {
+  border: none;
+  padding: 15px;
+  width: 100%;
+}
+input:focus{
+  outline: none;
+}
+ul {
+  width: 90%;
+  margin: 50px auto;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  border-bottom: 3px solid white;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Cabin', sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  position: absolute;
+  background: black;
+  color: white;
+  font-weight: bolder;
+  left: 0;
+  border-radius: 12px;
+  margin-top: 7px;
+  margin-left: 6px;
+  padding: 3px 5px;
+  font-family: monospace;
+}
